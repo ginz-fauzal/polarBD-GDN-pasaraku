@@ -1,15 +1,17 @@
-### Pasaraku PolarDB GDN
+# Pasaraku PolarDB GDN
 
-- Edit file config/config.php 
+### How to Use
 
-$host = '';
-$port = '';
-$dbname = '';
-$username = '';
-$password = '';
-$url ='';
+### Edit file config/config.php 
 
-- Edit file endpoint/register.php
-fill your SMPT mail
-- Edit file endpoint/lupapassword.php
-fill your SMPT mail
+- $host = '';
+- $port = '';
+- $dbname = '';
+- $username = '';
+- $password = '';
+- $url ='';
+
+### Edit file endpoint/register.php
+- fill your SMPT mail
+### Edit file endpoint/lupapassword.php
+- fill your SMPT mail
