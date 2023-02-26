@@ -16,7 +16,7 @@
 		array_push($data,array(
 		    "index"=>$index,
 		    "id_iklan"=>$row['id_iklan'],
-			"gambar"=>$web.$row['gambar'],
+			"gambar"=>$url.$row['gambar'],
 		));
 		$index+=1;
 		

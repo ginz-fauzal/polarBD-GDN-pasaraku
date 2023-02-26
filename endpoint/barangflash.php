@@ -22,7 +22,7 @@
     		    "id_barang"=>$row1['id_barang'],
     		    "url"=>$row1['url'],
     		    "skip"=>1,
-    			"gambars"=>$web."master/uploads/".$row1['url'],
+    			"gambars"=>$url."master/uploads/".$row1['url'],
     		));
     		
 	    }

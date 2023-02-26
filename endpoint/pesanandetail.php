@@ -32,7 +32,7 @@
         		    "id_barang"=>$row2['id_barang'],
         		    "url"=>$row2['url'],
         		    "skip"=>1,
-        			"gambars"=>$web."master/uploads/".$row2['url'],
+        			"gambars"=>$url."master/uploads/".$row2['url'],
         		));
         		
     	    }
@@ -72,7 +72,7 @@
     	       "id_checkout"=>$row3['id_checkout'],
     	       "nama"=>$row3['nama'],
     	       "telepon"=>'62'.substr($row3['telepon_driver'], 1),
-    	       "gambar"=>$web."uploads/".$row3['gambar'],
+    	       "gambar"=>$url."uploads/".$row3['gambar'],
     	       "kode"=>$row3['kode'],
     	       "total_barang"=>$row3['total_barang'],
     	       "jenis_bayar"=>$row3['jenis_bayar'],

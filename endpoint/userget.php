@@ -21,7 +21,7 @@
 	        $response->nama =$row['name'];
 	        $response->email =$row['email'];
 	        $response->jenis_kelamin =$row['jenis_kelamin'];
-	        $response->gambar =$web."uploads/".$row['gambar'];
+	        $response->gambar =$url."uploads/".$row['gambar'];
     	 	die(json_encode($response));
     	 	
         }else {

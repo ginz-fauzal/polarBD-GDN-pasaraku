@@ -33,7 +33,7 @@
         		    "id_barang"=>$row3['id_barang'],
         		    "url"=>$row3['url'],
         		    "skip"=>1,
-        			"gambars"=>$web."master/uploads/".$row3['url'],
+        			"gambars"=>$url."master/uploads/".$row3['url'],
         		));
     	    }
     	    

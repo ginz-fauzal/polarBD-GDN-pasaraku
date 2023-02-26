@@ -24,7 +24,7 @@
     		    "id_barang"=>$row1['id_barang'],
     		    "url"=>$row1['url'],
     		    "skip"=>1,
-    			"gambars"=>$web."master/uploads/".$row1['url'],
+    			"gambars"=>$url."master/uploads/".$row1['url'],
     		));
     		$idx+=1;
     		
@@ -40,7 +40,7 @@
 	       "nama"=>$row['nama'],
 	       "toko"=>$row['toko'],
 	       "catatan"=>$row['catatan'],
-	       "gambar_toko"=>$web."uploads/".$row['gambar_toko'],
+	       "gambar_toko"=>$url."uploads/".$row['gambar_toko'],
 	       "telepon"=>'62'.substr($row['telepon'], 1),
 	       "harga"=>$harga,
 	       "harga_dis"=>$harga_dis,

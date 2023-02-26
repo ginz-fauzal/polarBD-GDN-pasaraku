@@ -15,7 +15,7 @@
 	        array_push($data,array(
     	       "index"=>$index,
     	       "id_pemilik"=>$row2['id_pemilik'],
-    	       "gambar"=>$web."uploads/".$row2['gambar'],
+    	       "gambar"=>$url."uploads/".$row2['gambar'],
     	       "nama"=>$row2['nama'],
     	       "title"=>$row2['nama'],
     	       "email"=>$row2['email'],
